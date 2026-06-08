@@ -32,9 +32,10 @@ let students = [
     {name: 'Hoa', score: 9},
     {name: 'Ly', score:10}  
 ];
-let arr=[];
+
 function getTopStudents(students, threshold)
-{
+{  
+    let arr=[];
     for (let i=0; i<students.length; i++){
         
          if (students[i].score>= threshold){
