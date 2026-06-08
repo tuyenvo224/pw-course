@@ -3,13 +3,13 @@
 Cấu trúc DOM cơ bản của một trang web bao gồm:
 
 - <!DOCTYPE html>   : Khai báo loại tài liệu HTML
-- <html>            : Thẻ gốc (root element) chứa toàn bộ nội dung trang
-  - <head>          : Chứa thông tin meta, tiêu đề, liên kết CSS/JS
+- <html>            : Thẻ gốc (root element) chứa toàn bộ nội dung trang web 
+  - <head>          : Chứa thông tin metadata, tiêu đề, liên kết CSS/JS
     - <meta>        : Thông tin meta (charset, viewport, ...)
     - <title>       : Tiêu đề trang hiển thị trên tab trình duyệt
     - <link>        : Liên kết đến file CSS
     - <script>      : Nhúng hoặc liên kết file JavaScript
-  - <body>          : Chứa toàn bộ nội dung hiển thị trên trang
+  - <body>          : Chứa toàn bộ nội dung hiển thị của trang web
     - <header>      : Phần đầu trang (logo, navigation)
     - <main>        : Nội dung chính
     - <footer>      : Phần cuối trang
