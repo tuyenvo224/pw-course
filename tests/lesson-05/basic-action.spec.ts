@@ -1,7 +1,7 @@
 import { test } from '@playwright/test';
  
 test ('Test case 1', async ({ page }) => {
-   await test.step('Step Navigate Masterial website', async() => {
+   await test.step('Step Navigate Material website', async() => {
     // code test
     await page.goto("https://material.playwrightvn.com/");
    });
